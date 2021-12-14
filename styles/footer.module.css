@@ -1,0 +1,46 @@
+.footer{
+    background-color: rgb(224, 128, 11);
+}
+.footer hr{
+    width: 70pc;
+    border-color: gray;
+    border-style: solid;
+}
+.footerA{
+    background-color: rgb(224, 128, 11);
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.top{
+    margin-left: 50px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.footerA p{
+    font-size: 10px;
+}
+
+.email1 input{
+    border-style: double;
+    border-color: wheat;
+    border-radius: 10px;
+    background-color: rgb(212, 211, 211);
+    height: 30px;
+    width: 300px;
+    margin-right: 5px;
+}
+.email1 input :focus{
+    background-color: red;
+}
+
+.email1 button{
+    border-style: double;
+    border-color: wheat;
+    background-color: rgb(212, 211, 211);
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}

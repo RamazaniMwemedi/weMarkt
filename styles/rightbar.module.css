@@ -1,0 +1,82 @@
+.grids{
+    justify-content: space-evenly;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 240px 240px  240px 240px;
+    grid-gap: 15px;
+  }
+  
+  .item{
+    background-color: wheat;
+    border-radius: 15px;
+    transition:  4ms;
+    padding: 10px;
+  }
+  
+  .image {
+    justify-items: center;
+  }
+  .item_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+  }
+  .item_bottom button{
+    background-color: orange;
+    color: white;
+    align-items: center;
+    border: unset;
+    border-radius: 15px;
+    height: 50px;
+    transition:0.7s;
+  }
+  .item_bottom button:hover{
+    border-style: solid ;
+    border-width: 3px;
+    border-color: rgba(248, 162, 1, 0.871);
+  }
+  
+  .item_name{
+    margin-top: -20px;
+  }
+  /* Outffits */
+  .title{
+    width: 100%;
+    background-color: red;
+    color:orange;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .title h3{
+    margin-left: 5px;
+  }
+  .title h4{
+    margin-right: 10px;
+    border-style: solid;
+    border-radius: 5px;
+  }
+  .outfitlist{
+    display: flex;
+    margin-top: -30px;
+  }
+  .outfitlist a{
+   margin-left: 0px;
+   margin-top: 10px;
+   background-color: rgb(233, 192, 115);
+   border-radius: 5px;
+  }
+  
+  .outFitsContainer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 130px 130px  130px 130px 130px 130px 130px ;
+    grid-gap: 5px;
+  }
+  .outFit{
+    background-color: honeydew;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  

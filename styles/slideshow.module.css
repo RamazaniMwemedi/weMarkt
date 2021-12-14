@@ -1,0 +1,28 @@
+.each_slide{
+    display: flex;
+}
+
+.each_slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height:50px;
+  /* width: 190px; */
+}
+
+.each_slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.main{
+  background-color: dodgerblue;
+  height: 100px;
+  width: 100px;
+}
+.main h1{
+  color: orange;
+}

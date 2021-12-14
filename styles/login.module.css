@@ -1,0 +1,32 @@
+.login_form{
+    margin-left: 20pc;
+    margin-right: 20pc;
+    background-color:rgb(236, 195, 145);
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+}
+.login_form  form  input{
+    border-radius: 25px;
+    height: 4.2vh;
+    width: 45vh;
+    border: unset;
+}
+.login_form form label p{
+    font-size :13px;
+    margin-bottom: -1px;
+    margin-right:220px;
+}
+.checkbox{
+    margin-left: 12pc;
+    align-items: center;
+    display: flex;
+}
+.login_form form button{
+    border: unset;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    height: 5vh;
+    width: 45vh;
+}

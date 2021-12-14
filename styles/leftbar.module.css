@@ -1,0 +1,39 @@
+.logo{
+    cursor: pointer;}
+.logo i {
+    font-family: serif;
+    color: orange;
+}
+.logo b {
+    font-family: cursive;
+}
+.navigationshort{
+    width: 15vw;
+    height: 45px;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-top: 3px;
+    
+}
+.navlink:hover{
+    background-color: rgb(233, 192, 115);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.navlink{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    
+}
+.navlink:active{
+    background-color: rgb(233, 192, 115);
+}
+.left_bar{
+    /* position: fixed; */
+    flex: 1;
+}
+.navigationshort button{
+    border: unset;
+    background-color: transparent;
+}

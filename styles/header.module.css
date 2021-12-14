@@ -1,0 +1,50 @@
+.search{
+    background-color: white;
+    height: 8vh;
+    width: 51.5vw;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 10pc;
+    align-items: center;
+    cursor: pointer;
+}
+.header{
+    width: 100%;
+    background-color: rgb(184, 127, 58);
+ 
+}
+.all{
+    display: flex;
+}
+.right{
+    display: flex;
+}
+.right_header{
+    margin-left: 14pc;
+    display: flex;
+    float: right;
+    margin: 15px;
+    justify-content: space-between;
+    margin-left: 190px;
+}
+/* Search Page Bar */
+.search input{
+   width: 92%; 
+   height: 60%;
+   border-style: unset;
+   border-radius: 10px;
+}
+.search input :focus{
+    border-style: unset;
+}
+.name{
+    display: inline-flex;
+}
+.name p{
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: wheat;
+    border-radius: 5px;
+
+}

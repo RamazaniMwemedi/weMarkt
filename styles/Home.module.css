@@ -1,0 +1,26 @@
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+.container {
+  margin: 0 0.1rem;
+}
+.slide{
+  margin-bottom: 90px;
+}
+.bars{
+  display: flex;
+}
+.left_bar{
+  flex:0.1
+}
+.right_bar{
+  flex:0.9
+}
+.header{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
