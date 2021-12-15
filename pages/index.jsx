@@ -26,9 +26,15 @@ export default function Home()
         <div className={styles.header}>
           <Header />
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <div >
         <SlideShow/>
         </div>
+        <br />
         <div className={styles.bars}>
           <div className={styles.left_bar}>
             <Leftbar />
