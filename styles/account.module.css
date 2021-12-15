@@ -1,0 +1,16 @@
+.account{
+    align-items: center;
+}
+.items{
+    justify-content: space-evenly;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 240px 240px 240px;
+    gap: 15px;
+}
+.item{
+    background-color: wheat;
+    border-radius: 15px;
+    transition:  4ms;
+    padding: 10px;
+  } 
