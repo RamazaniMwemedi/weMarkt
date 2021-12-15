@@ -38,8 +38,9 @@ function Header() {
             </Link>
             <div className={styles.right_header}>
               <Link href="./account">
-                <div><Avatar src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?cs=srgb&dl=pexels-pixabay-415829.jpg&fm=jpg" />
-                <h3>Hello Sofia !</h3></div>
+                <div style={{display:"inline-flex", alignItems:"center", gap:"2px"}}>
+                  <Avatar src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?cs=srgb&dl=pexels-pixabay-415829.jpg&fm=jpg" />
+                <h5 style={{color:"white"}}>Hello Sofia </h5></div>
               </Link>
               <Link href="./cart">
               <Badge badgeContent={add} color="primary">

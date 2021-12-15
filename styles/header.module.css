@@ -12,6 +12,7 @@
 .header{
     width: 100%;
     background-color: rgb(184, 127, 58);
+    align-items: center;
  
 }
 .all{
@@ -27,6 +28,7 @@
     margin: 15px;
     justify-content: space-between;
     margin-left: 190px;
+    align-items: center;
 }
 /* Search Page Bar */
 .search input{

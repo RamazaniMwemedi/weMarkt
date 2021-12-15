@@ -11,8 +11,7 @@
     border-radius: 15px;
     transition:  4ms;
     padding: 10px;
-  }
-  
+  }  
   .image {
     justify-items: center;
   }
@@ -59,6 +58,8 @@
   .outfitlist{
     display: flex;
     margin-top: -30px;
+    gap: 0.6em;
+    margin-bottom: 10px;
   }
   .outfitlist a{
    margin-left: 0px;
