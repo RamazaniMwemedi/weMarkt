@@ -14,7 +14,6 @@ function Rightbar()
 {
   return (
     <>
-      <h1>Welcome Sofia </h1>
       <h2 style={{ color: "rgba(252, 177, 16, 0.87)" }}>
         Most wanted smart phones 📱
       </h2>
