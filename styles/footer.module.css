@@ -44,3 +44,12 @@
     height: 30px;
     width: 100px;
 }
+.bottom{
+   margin-left: 25pc;
+   display: flex;
+   gap: 20px;
+}
+.bottom p{
+    font-size: 12px;
+    cursor: pointer;
+}

@@ -67,8 +67,14 @@ function Footer() {
             })}
           </div>
         </div>
-          
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A illum eum fugiat assumenda beatae excepturi? Accusantium commodi provident eaque quia vitae tempora enim esse aut, hic deserunt itaque libero maiores.</p>
+          <div className={styles.bottom}>
+            {bottom.map((title)=>{
+              const{name}= title
+              return(
+                <p>{name}</p>
+              )
+            })}
+          </div>
       </div>
     </>
   );
@@ -179,4 +185,10 @@ const footer4 = [
     url: "/",
   },
 ];
-            
+
+const bottom= [
+ {name:"Conditions of Uses"},
+ {name:"Privacy Notice "},
+ {name:"Interest-Based Ads"},
+ {name:"© 1996-2021, weMarkt, Inc. or its affiliates"}
+]
