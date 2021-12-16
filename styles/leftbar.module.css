@@ -7,9 +7,12 @@
 .logo b {
     font-family: cursive;
 }
+.left_main{
+    justify-content: space-between;
+    margin-left: 5px;
+}
 .navigationshort{
     width: 15vw;
-    height: 45px;
     justify-content: space-between;
     border-radius: 15px;
     margin-top: 3px;
@@ -36,4 +39,20 @@
 .navigationshort button{
     border: unset;
     background-color: transparent;
+}
+
+.add1{
+    height: 150px;
+    background-color: white;
+    border-radius: 12px;
+}
+.add2{
+    height: 350px;
+    background-color: white;
+    border-radius: 12px;
+}
+.add3{
+    height: 150px;
+    background-color: white;
+    border-radius: 12px;
 }

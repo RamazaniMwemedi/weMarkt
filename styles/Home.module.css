@@ -17,7 +17,8 @@
   flex:0.1
 }
 .right_bar{
-  flex:0.9
+  flex:0.9;
+  margin-left:10px;
 }
 .header{
   position: fixed;

@@ -10,7 +10,7 @@
     background-color: wheat;
     border-radius: 15px;
     transition:  4ms;
-    padding: 10px;
+    /* padding: 10px; */
   }  
   .image {
     justify-items: center;

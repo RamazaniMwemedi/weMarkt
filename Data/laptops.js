@@ -1,0 +1,17 @@
+export default [
+    {id:1,name:"",brand:"",inch:0,color:['',''],price:0,images:['',''], ifrmaUrl:'', mainInage:""},
+    {id:2,name:"",brand:"",inch:0,color:['',''],price:0,images:['',''], ifrmaUrl:'', mainInage:""},
+    {id:3,name:"",brand:"",inch:0,color:['',''],price:0,images:['',''], ifrmaUrl:'', mainInage:""},
+    {id:4,name:"",brand:"",inch:0,color:['',''],price:0,images:['',''], ifrmaUrl:'', mainInage:""},
+    {id:5,name:"",brand:"",inch:0,color:['',''],price:0,images:['',''], ifrmaUrl:'', mainInage:""},
+    {id:6,name:"",brand:"",inch:0,color:['',''],price:0,images:['',''], ifrmaUrl:'', mainInage:""},
+    {id:7,name:"",brand:"",inch:0,color:['',''],price:0,images:['',''], ifrmaUrl:'', mainInage:""},
+    {id:8,name:"",brand:"",inch:0,color:['',''],price:0,images:['',''], ifrmaUrl:'', mainInage:""},
+    {id:9,name:"",brand:"",inch:0,color:['',''],price:0,images:['',''], ifrmaUrl:'', mainInage:""},
+    {id:10,name:"",brand:"",inch:0,color:['',''],price:0,images:['',''], ifrmaUrl:'', mainInage:""},
+    {id:11,name:"",brand:"",inch:0,color:['',''],price:0,images:['',''], ifrmaUrl:'', mainInage:""},
+    {id:12,name:"",brand:"",inch:0,color:['',''],price:0,images:['',''], ifrmaUrl:'', mainInage:""},
+    {id:13,name:"",brand:"",inch:0,color:['',''],price:0,images:['',''], ifrmaUrl:'', mainInage:""},
+    {id:14,name:"",brand:"",inch:0,color:['',''],price:0,images:['',''], ifrmaUrl:'', mainInage:""},
+    {id:15,name:"",brand:"",inch:0,color:['',''],price:0,images:['',''], ifrmaUrl:'', mainInage:""},
+]
