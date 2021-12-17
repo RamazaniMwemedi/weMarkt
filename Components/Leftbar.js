@@ -46,7 +46,7 @@ const NavbarLinks = () => {
           return (
             <>
               <Link href={url}>
-                <div className={styles.navlink}>
+                <div className={styles.navlink} key={product_name}>
                   {Product_icon}  
                   <h5 style={{marginLeft:"10px"}} >{product_name}</h5>
                 </div>

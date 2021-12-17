@@ -13,7 +13,8 @@
     /* padding: 10px; */
   }  
   .image {
-    justify-items: center;
+    margin:5px;
+    border-radius:15px;
   }
   .item_bottom{
     display: flex;
