@@ -1,3 +1,5 @@
+import {useState} from 'react'
+
 import Head from "next/head";
 import Link from "next/link";
 // Styles
@@ -12,6 +14,12 @@ import Footer from "../Components/Footer";
 
 export default function Home()
 {
+  const [items, setItems] = useState(0)
+  const addItemHandler=()=>{
+    setItems(items+1)
+  }
+  console.log(`This is the index page and the item value is ${items}`);
+
   return (
     <>
       <div className={styles.container}>
@@ -24,7 +32,7 @@ export default function Home()
           />
         </Head>
         <div className={styles.header}>
-          <Header />
+          <Header items={items} />
         </div>
         <br />
         <br />
@@ -40,7 +48,7 @@ export default function Home()
             <Leftbar />
           </div>
           <div className={styles.right_bar}>
-            <Rightbar />
+            <Rightbar items={items} addItemHandler={addItemHandler} />
           </div>
         </div>
         <div className={styles.footer}>

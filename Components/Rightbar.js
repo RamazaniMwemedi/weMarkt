@@ -6,12 +6,13 @@ import styles from "../styles/rightbar.module.css";
 //componet
 import PhonesItem from './PhonesItem'
 //end of componet
-function Rightbar()
+function Rightbar(props)
 {
+  // console.log(`This is the Rightbar component and the item value is ${props.addItemHandler}`);
   return (
     <>
      
-     <Phones/>
+     <Phones items={props.items} addItemHandler={props.addItemHandler}/>
       <Laptops/>
       <br/>
       <Electronic/>
@@ -21,9 +22,10 @@ function Rightbar()
     </>
   );
 }
-const Phones = () =>
+const Phones = (props) =>
 {
-  const [add, setAdd] = useState(0);
+  // console.log(`This is the Phones component and the item value is ${items}`);
+  console.log(props);
   return (
     <>
         <div className={styles.title} >
@@ -46,7 +48,7 @@ const Phones = () =>
           </h4>
         </div>
     <div className={styles.grids}>
-      <PhonesItem/>
+      <PhonesItem items={props.items} addItemHandler={props.addItemHandler}/>
       </div>
       </>
   )

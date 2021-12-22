@@ -6,7 +6,7 @@ import { IconButton, Avatar, Badge } from "@mui/material";
 
 import add from './Rightbar'
 
-function Header() {
+function Header(props) {
   return (
     <>
       <div className={styles.header}>
@@ -43,7 +43,7 @@ function Header() {
                 <h5 style={{color:"white"}}>Hello Sofia </h5></div>
               </Link>
               <Link href="./cart">
-              <Badge badgeContent={add} color="primary">
+              <Badge badgeContent={props.items} color="primary">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="29"

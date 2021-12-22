@@ -4,7 +4,7 @@ import Link from "next/link"
 import phonesData from "../Data/phone"
 
 import styles from "../styles/rightbar.module.css";
-function PhonesItem() {
+function PhonesItem(props) {
     return (
         <>
             {phonesData.map((item) => {
@@ -23,7 +23,6 @@ function PhonesItem() {
         } = item;
         return (
           <>
-            <Link href="/phones/[id]" as={`/phones/${item_name}`} >
             <div className={styles.item}>
               <div className={styles.image}>
                 <Image
@@ -49,7 +48,7 @@ function PhonesItem() {
 
                 <button
                   type="button"
-                  onClick={() => setAdd(console.log({ item_name }))}>
+                  onClick={props.addItemHandler}>
                   Add to Cart
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +63,6 @@ function PhonesItem() {
                 </button>
               </div>
             </div>
-            </Link>
           </>
         );
       })}

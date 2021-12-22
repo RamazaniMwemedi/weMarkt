@@ -12,7 +12,7 @@ function account() {
         <title>Account</title>
       </Head>
       <Header />
-        <h1 style={{marginLeft:"150px"}}>Your Account</h1>
+        <h1 style={{marginLeft:"150px"}}>My Account</h1>
         <div className={styles.accountPage}>
       <div className={styles.account}>
         {Datas.map((data)=>{
